@@ -1,0 +1,54 @@
+.choose {
+    .dialog {
+        height: 548px;
+    }
+
+    .wrapper {
+        top: -274px;
+    }
+
+    .body {
+        height: 368px;
+    }
+
+    .options {
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        width: 360px;
+        text-align: center;
+    }
+
+    .index {
+        color: $c_disabled;
+        font-size: 14px;
+        line-height: 40px;
+    }
+
+    .option .feature {
+        position: absolute;
+        font-size: 24px;
+        left: 16px;
+        margin-top: 6px;
+    }
+
+    input {
+        font-size: 14px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 16px;
+        width: 328px;
+        border: 1px solid $c_border;
+        border-radius: 4px;
+    }
+
+    .add .feature {
+        font-size: 14px;
+        line-height: 64px;
+
+        .icon {
+            font-size: 24px;
+            vertical-align: middle;
+        }
+    }
+}

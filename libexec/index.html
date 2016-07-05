@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; Charset=utf-8">
+        <meta name="renderer" content="webkit">
+        <link rel="stylesheet" href="../css/${VERSION}.min.css">
+        <link rel="shortcut icon" href="logo.ico">
+        <title></title>
+    </head>
+    <body>
+        <div class="main"></div>
+        <div class="alert box"></div>
+        <div class="confirm box"></div>
+        <div class="dialog box"></div>
+        <script type="text/javascript" src="react.min.js"></script>
+        <script type="text/javascript" src="../js/${VERSION}.min.js"></script>
+        <script type="text/javascript">
+            var _hmt = _hmt || [];
+            window.onload = function(){
+                // 初始化编辑器
+                var tsrCls = require("tsr");
+                var $tsr = new tsrCls();
+                window.$tsr = $tsr;
+            }
+        </script>
+    </body>
+</html>

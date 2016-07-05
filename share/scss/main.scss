@@ -1,0 +1,100 @@
+@import '_variants';
+
+html,
+body,
+form {
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font: 12px "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+    color: $c_default;
+}
+
+input, div, span, p, button, a, form, li {
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", Arial, sans-serif;
+}
+
+.icon {
+    margin-right: 1px;
+}
+
+.left {
+    float: left;
+    clear: left;
+}
+
+.right {
+    float: right;
+    clear: right;
+}
+
+.feature {
+    text-decoration: none;
+    margin: 0 3px;
+    color: $c_default;
+
+    .text {
+        color: $c_hilite;
+        font-size: 12px;
+    }
+
+    &.disabled {
+        color: $c_disabled;
+        cursor: not-allowed;
+
+        .text {
+            color: $c_disabled;
+            font-size: 12px;
+        }
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.button {
+    text-decoration: none;
+    color: $c_default;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 4px;
+
+    &.solid {
+        display: inline-block;
+        font: {
+            size: 14px;
+            weight: bold;
+        }
+        width: 142px;
+        height: 26px;
+        text-align: center;
+        line-height: 26px;
+        margin: 0 16px;
+    }
+
+    &.hilite {
+        background-color: $c_hilite;
+        border-color: $c_hilite;
+        color: $bg_default;
+    }
+}
+
+.main{
+    $bg_color:#24303F;
+    $btn_color:#00B4DF;
+
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100%;
+    position: relative;
+    min-height: 660px;
+}
+
+@import '_dialog';

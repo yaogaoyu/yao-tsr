@@ -1,0 +1,89 @@
+.move {
+    .dialog {
+        width: 742px;
+        height: 550px;
+    }
+
+    .wrapper {
+        left: -371px;
+        top: -275px;
+    }
+
+    .body {
+        height: 430px;
+    }
+
+    .tree {
+        height: 378px;
+        overflow-x: hidden;
+        padding: 12px 32px 0 32px;
+    }
+
+    p {
+        margin: 0;
+        height: 32px;
+        line-height: 32px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .indent-0 {
+        padding-left: 0;
+    }
+
+    .indent-1 {
+        padding-left: 24px;
+    }
+
+    .indent-2 {
+        padding-left: 48px;
+    }
+
+    .indent-3 {
+        padding-left: 72px;
+    }
+
+    .indent-4 {
+        padding-left: 96px;
+    }
+
+    .indent-5 {
+        padding-left: 120px;
+    }
+
+    .indent-6 {
+        padding-left: 144px;
+    }
+
+    .disabled {
+        color: $c_disabled;
+        cursor: not-allowed;
+    }
+
+    .active,
+    p:hover {
+        background-color: #f2f2f2;
+    }
+
+    .title .icon {
+        font-size: 16px;
+        vertical-align: middle;
+        margin: 0 8px;
+    }
+
+    .who {
+        margin-left: 32px;
+    }
+
+    .tip {
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        background-color: #fafbfc;
+        text-align: center;
+    }
+
+    .footer {
+        margin-top: 10px;
+    }
+}
